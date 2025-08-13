@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pdb
+*.egg-info/
+.eggs/
+build/
+dist/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# --- Envs & IDEs ---
+.venv/
+.env
+.env.*
+*.env
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Data & Artifacts ---
+data/
+!data/README.md
+references/papers/
+logs/
+outputs/
+checkpoints/
+runs/
+
+# --- Caches ---
+.huggingface/
+~/.cache/huggingface/
+~/.cache/torch/
+cache/
