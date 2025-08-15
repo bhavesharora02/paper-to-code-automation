@@ -1,3 +1,4 @@
+# Week 1 core dependencies
 openai>=1.0.0
 transformers>=4.41.0
 datasets>=2.19.0
@@ -7,8 +8,14 @@ torchvision>=0.17.0
 pydantic>=2.6.0
 jinja2>=3.1.0
 langchain>=0.2.0
-# Optional:
-# langgraph
-# sentencepiece
-# accelerate
-# wandb
+
+# Week 2 additions (Parsing + OCR)
+PyMuPDF>=1.23.8         # fitz — PDF rendering
+paddleocr>=2.7.0.3      # OCR engine
+tqdm>=4.66.0            # progress bars
+pillow>=10.2.0          # image handling
+numpy>=1.26.0           # required by paddleocr
+opencv-python>=4.9.0.80 # image preprocessing for OCR
+
+# Optional for OCR layout parsing
+layoutparser>=0.3.4
