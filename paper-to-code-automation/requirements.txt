@@ -1,5 +1,4 @@
 # Week 1 core dependencies
-openai>=1.0.0
 transformers>=4.41.0
 datasets>=2.19.0
 pdfplumber>=0.11.0
@@ -17,5 +16,13 @@ pillow>=10.2.0          # image handling
 numpy>=1.26.0           # required by paddleocr
 opencv-python>=4.9.0.80 # image preprocessing for OCR
 
+# Week 3 additions (IR Generation)
+langchain-google-genai>=0.1.0  # Google's Gemini integration for LangChain
+python-dotenv>=1.0.0    # for loading environment variables
+litellm>=1.0.0          # Unified LLM API
+google-generativeai>=0.3.0  # Google's Generative AI SDK
+pytest>=7.4.0           # testing framework
+pydantic>=2.0.0         # data validation and settings management
+
 # Optional for OCR layout parsing
-layoutparser>=0.3.4
+# layoutparser>=0.3.4    # uncomment if needed for advanced layout parsing

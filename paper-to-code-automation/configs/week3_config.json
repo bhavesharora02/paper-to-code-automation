@@ -1,0 +1,7 @@
+{
+    "input_pdf": "references/papers/attention_is_all_you_need.pdf",
+    "out_dir": "outputs/parsed/attention_is_all_you_need",
+    "ocr_language": "en",
+    "render_dpi": 200,
+    "model_type": "nlp"
+  }
